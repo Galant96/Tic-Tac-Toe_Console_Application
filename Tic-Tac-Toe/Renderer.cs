@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace Tic_Tac_Toe
 {
+	// Renderer class is responsible for rendering the game's gameplay in the console window
 	class Renderer
 	{
 		/// <summary>

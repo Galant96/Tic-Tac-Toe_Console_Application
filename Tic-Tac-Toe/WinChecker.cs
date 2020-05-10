@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace Tic_Tac_Toe
 {
+	// WinChecker class is responsible for controlling when the game is over and who is the winner
 	class WinChecker
 	{
 		/// <summary>

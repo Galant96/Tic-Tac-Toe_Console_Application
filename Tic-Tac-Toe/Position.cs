@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 
-// Position class is responsible for keeping a position on the board
 
 namespace Tic_Tac_Toe
 {
+	// Position class is responsible for keeping a position on the board
+
 	class Position
 	{
 		public int Row { get;}

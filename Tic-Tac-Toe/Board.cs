@@ -4,6 +4,8 @@ using System.Linq;
 
 namespace Tic_Tac_Toe
 {
+	// Board class is responsible for generating the board
+
 	class Board
 	{
 		// Properties
