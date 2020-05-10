@@ -57,6 +57,7 @@ namespace Tic_Tac_Toe
 				}
 			}
 
+			// Check diagonals
 			if (AreAll(board, new Position[] {
 					new Position(0, 0),
 					new Position(1, 1),
@@ -68,7 +69,7 @@ namespace Tic_Tac_Toe
 			if (AreAll(board, new Position[] {
 					new Position(2, 0),
 					new Position(1, 1),
-					new Position(2, 2) }, player))
+					new Position(0, 2) }, player))
 			{
 				return true;
 			}

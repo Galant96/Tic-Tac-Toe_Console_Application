@@ -36,7 +36,7 @@ namespace Tic_Tac_Toe
 		}
 
 		/// <summary>
-		/// This is the game's turn system
+		/// Check the current turn
 		/// </summary>
 		/// <param name="position">The given position is needed to check if it is not already filled</param>
 		/// <param name="newState">Get the current state to check if it is the correct turn</param>

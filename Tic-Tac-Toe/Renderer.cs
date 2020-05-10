@@ -66,5 +66,12 @@ namespace Tic_Tac_Toe
 					break;
 			}
 		}
+
+		public void DisplayeMovementOptions()
+		{
+			Console.WriteLine("1, 2, 3 - Top Row");
+			Console.WriteLine("4, 5, 6 - Middle Row");
+			Console.WriteLine("7, 8, 9 - Bottom Row");
+		}
 	}
 }
